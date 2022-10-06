@@ -26,8 +26,9 @@ def quick_sort(array,start,end):
         else:
             #작은 데이터와 큰 데이터 교체 
             array[left], array[right] = array[right], array[left]
-            
+    #피벗 왼쪽 기준 정렬 수행
     quick_sort(array,start,right-1)
+    #피벗 오른쪽 기준 정렬 수행
     quick_sort(array,right+1,end)
     
 quick_sort(array,0,len(array)-1)
