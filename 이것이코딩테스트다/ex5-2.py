@@ -12,6 +12,6 @@ queue.append(1)
 queue.append(4)
 queue.popleft()
 
-print(queue)
+print(queue) #들어온 순서 대로 출력
 queue.reverse()
-print(queue)
+print(queue) #나중에 들어온 순서

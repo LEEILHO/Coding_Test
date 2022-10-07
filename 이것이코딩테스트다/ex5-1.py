@@ -8,6 +8,6 @@ stack.append(7)
 stack.pop()
 stack.append(1)
 stack.append(4)
-print(stack.pop())
-print(stack)
-print(stack[::-1])
+stack.pop()
+print(stack) #최하단 원소부터 출력 
+print(stack[::-1]) #최상단 원소부터 출력
