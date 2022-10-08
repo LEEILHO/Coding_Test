@@ -34,7 +34,7 @@ def dijkstra(start):
 dijkstra(c)
 
 count =0
-max_distance =0
+max_distance =0 
 for d in distance:
     if d != INF:
         count +=1
