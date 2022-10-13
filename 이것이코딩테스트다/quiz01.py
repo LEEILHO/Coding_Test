@@ -6,15 +6,15 @@
 첫 째줄 모험가 N명 공포도의 값을 N이하의 자연수로 주어지며 자연수는 공백으로 구분
 """
 n = int(input())
-h = list(map(int, input().split()))
-h.sort()
-result =0
-cnt =0
+h = list(map(int, input().split())) #공포도 리스트
+h.sort() # 오름차순 정렬
+result =0 #결과
+cnt =0 #그룹체크용
 for i in h:
-    cnt +=1
-    if i <=cnt:
-        result +=1
-        cnt =0
+    cnt +=1 # 인원 1명 추가
+    if i <=cnt: # 인원이 공포도보다 크거나 같으면
+        result +=1 #그룹수 추가
+        cnt =0 # 인원 초기화
 print(result)
 
 
