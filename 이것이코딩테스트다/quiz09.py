@@ -9,3 +9,12 @@
 ababcdabcd 2개 단위 => 2abcdabcd, 4개단위 => ab2abcd
 압축할 문자열 s가 매개변수로 주어질 때 1개 이상 단위로 문자열을 잘라 압축하여 표현하는 문자열 중 가장 짧은 것의 길이를
 return 하도록 solution 함수를 완성하시오.
+"""
+def solution(s):
+    answer = len(s)
+    for i in range(1,(len(s)//2)+1 ):
+        compressed =""
+
+
+
+    return answer
