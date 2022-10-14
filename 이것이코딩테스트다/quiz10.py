@@ -15,7 +15,7 @@ m은 항상 n이하
 #자물쇠 90도 회전
 def rotate_key(key):
     n = len(key)
-    m - len(key[0])
+    m = len(key[0])
     result = [[0] * n for _ in range(m)]
     for i in range(n):
         for j in range(m):
@@ -27,7 +27,7 @@ def check(new_lock):
     lock_length = len(new_lock) //3
     for i in range(lock_length,lock_length *2):
         for j in range(lock_length,lock_length *2):
-            if new_lock[i][j] == 0:
+            if new_lock[i][j] != 1:
                 return False
     return True
 
