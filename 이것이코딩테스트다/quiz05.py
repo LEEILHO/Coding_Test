@@ -28,3 +28,4 @@ for i in range(1,m+1):
     n -= arr[i]
     result += n* arr[i]
 print(result)
+'''
