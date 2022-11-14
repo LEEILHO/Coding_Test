@@ -1,3 +1,4 @@
+# 체스판 위의 룩 배치
 def check(board):
     cnt =0
     rook_x =[]
