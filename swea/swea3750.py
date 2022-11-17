@@ -29,4 +29,19 @@ for tc,result in results:
 #     results.append((tc,recursive(n))) 
 # for tc,result in results:
 #     print(f"#{tc} {result}")
-    
+#한민 코드
+# T = int(input())
+# res = []
+# for test_case in range(1, T + 1):
+#     num = input()
+#     nList = list(map(int, num))
+#     while True:
+#         cnt = 0
+#         for i in nList:
+#             cnt += i
+#         if cnt >= 10:
+#             nList = list(map(int, str(cnt)))
+#         else:
+#             res.append(cnt)
+#             break
+# print(res)
