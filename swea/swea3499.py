@@ -9,9 +9,6 @@ for tc in range(1,T+1):
     else:
         left_cards = cards[0:N//2+1]
         right_cards = cards[N//2+1:N]
-        
-    print(left_cards)
-    print(right_cards)
     result = []
     for i in range(len(right_cards)):
         result.append(left_cards[i])
